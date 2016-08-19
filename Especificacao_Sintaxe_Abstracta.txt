@@ -1,0 +1,84 @@
+﻿is_program --> ( <statments: is_class>)
+
+is_class --> (<class: is_class><declaration:is_declaration><func_list: is_func_list>)
+
+is_func_list --> (<func_list: is_func_list><func_def: is_func_def>)
+
+is_statement_list --> ( <statment_list: is_statement_list><statement: is_statement> )
+
+is_statement --> is_instruction V is_compound_statement V is_println_statement V is_declaration V is_func_call V return_statement V read_statement V is_concat V is_break_cont
+
+is_break_cont --> is_BREAK V is_CONTINUE
+
+is_concat: (<argumentos: is_concat_args>)
+
+is_concat_args: (<concat_args: is_concat_args><type: is_type>)
+
+is_read_statement --> is_READ V is_READLINE
+
+is_instruction --> is_atribution V is_expression V is_plusminus
+
+is_plusminus --> is_PLUSPLUS V is_MINUSMINUS
+
+is_compound_statement --> is_if_statement V is_while_statement V is_for_statement
+
+is_println_statement --> is_PRINTLN V is_PRINT
+
+is_return_statement --> is_instruction V NULL
+
+is_func_def --> (<return_type: is_symbols><nome_func: is_ID><parametros: is_arg_list><cont_func: is_cont_func>)
+
+is_symbols --> is_INTSYMB V is_DOUBLESYMB V is_FLOATSYMB V is_STRINGSYMB V is_VOIDSYMB V is_BOOLSYMB
+
+is_if_statement --> ( <instr:is_instruction><iconts:is_cont_statement><ieisl:is_elseif_statement_lis><ielses:is_else_statement> )
+
+is_while_statement --> ( <instr:is_instruction><iconts:is_cont_statement> )
+
+is_else_statement --> is_cont_statement V NULL
+
+is_elseif_statement --> ( <instr: is_instruction><iconts:is_cont_statement> )
+
+is_elseif_statement_list --> (<instr: is_statement_list>)
+
+is_cont_statement --> is_statement V is_statement_list
+
+is_declaration --> is_dec_list
+
+is_dec_list --> ( <dec_list: is_dec_list><atr: is_atr>
+
+is_atr --> is_atribution V is_id
+
+is_atribution --> ( <atrib_list:is_atribution_list><operacao:is_expression> )
+
+is_atribution_list --> ( <atribution_list: is_atribution_list><nome_atr: is_ID>
+
+is_expression --> is_exp_minus_plus V is_expression V is_logic_exp_or_and V is_logic_exp_not V is_aritmetic_exp V is_relac_exp V is_type
+
+is_exp_minus_plus --> ( <exp:is_expression><oper: is_MINUS V is_PLUS> )
+
+is_logic_exp_not --> ( <exp:is_expression><oper:is_oper> )
+
+is_logic_exp_or_and --> ( <exp1:is_expression><oper:is_oper><exp2:is_expression> )
+
+is_relac_exp --> ( <exp1: is_expression><oper:is_oper_r><exp2:is_expression> )//is_IGUAL V is_MENOR V is_MENOR_IGUAL V is_MAIOR_IGUAL V is_MAIOR V is_DIFERENTE
+
+is_aritmetic_exp --> ( <exp1: is_expression><oper:is_oper_a><exp2:is_expression> )
+
+is_type --> is_INTEGER V is_FLOAT V is_DOUBLE V is_STRING V is_func_call V is_BOOL
+
+is_func_call --> (<nome: is_ID><argumentos: is_call_list>)
+
+is_oper_a --> is_PLUS V is_MINUS v is_MULT v is_DIV v is_MOD v is_POT
+
+is_oper_r --> is_GREATER v is_GREATEREQUAL v is_LESS v is_LESSEQUAL v is_EQUAL v is_NOTEQUAL
+
+is_oper_l --> is_AND v is_OR v is_NOT
+
+is_id --> ( <id:char> )
+
+is_id_list
+
+is_println_args
+
+is_call_list
+
