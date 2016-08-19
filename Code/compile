@@ -1,0 +1,5 @@
+lex mycalc.l
+yacc -d mycalc.y -v
+gcc -g -Wall -o mycalc y.tab.c lex.yy.c functions.c shows.c semantics.c symbol_table.c translate.c -ll -ly -lm
+
+
