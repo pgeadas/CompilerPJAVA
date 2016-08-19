@@ -1,0 +1,181 @@
+
+public class CORRECTO
+{
+	int LALA = 169;
+	String frase= "Programa Correcto!";
+	int ola = 69;
+	String blabla;
+
+
+	public static int ifb(int a){
+		return a-10;
+	}
+
+	public static int ifa(int a){
+		return a+10;
+	}
+
+	public static int contaedss(String a, double b){
+		return 1;
+	}
+
+	public static int xoxo(int LALA, int BLABLA){
+
+		int b=200;
+		int z = b;
+		double a;
+		System.out.println(z);
+		System.out.println("OLA\n");
+		System.out.println(b);
+
+
+		z=contaedss("OLA",a);
+		return z;
+	}
+
+	public static int soma(int a, int b ){
+		int c;
+		c=a+b;
+		return c;
+	}
+
+	public static int mult(int a, int b ){
+		int c;
+		c=a*b;
+		return c;
+	}
+
+	public static int conta(int a, int b ){
+		return soma(a,b)+mult(a,b);
+	}
+
+
+	public static String WOW(int insane){
+		return "Leeroy Jenkins is sleeping!\n";
+	}
+
+
+	public static void daniel_f(){
+		int i=-10, j=0, z=0;
+		float x;
+		String cena;
+		
+		for(i=0; i<4; i++){
+			System.out.print("_");
+
+		}
+		System.out.print("\n");
+		for(j=0; j<1; j++){
+			for(i=0; i<4; i++){
+				if(i==0)
+					System.out.print("|");
+		
+					
+				else if(i==3)
+					System.out.print("|");
+					
+				else
+					System.out.print(" ");
+				
+			}
+			System.out.print("\n");
+		}
+
+
+		for(i=0; i<2; i++){
+
+			if(i==0)
+				System.out.print("|_");
+			else if(i==1)
+				System.out.print("_|");
+			else
+				System.out.print("_");
+
+		}
+	
+		System.out.print("\n");
+		while(i<10){
+			
+			System.out.println(i);
+			i=i+1;
+			}
+
+
+		int plusplus=5;
+		plusplus+=1;
+		System.out.println(plusplus);
+		return;
+		
+	}
+	
+	public static int main()
+	{
+
+		int b,c,d,a,e,f;
+		int retorno=100;
+		double korn;
+		a=100;
+		
+		a=a*5;
+		a=a%2;
+		int s;
+		
+		a=1>2;
+
+		String Str = frase;
+		
+
+		System.out.println(WOW(1000));
+
+
+		
+		float muahahahah;
+		double imdevil;
+		
+		
+
+
+		for(int i; i<10; i=i+1){
+			c=10+a;
+		}
+
+		i=i+1;
+
+		String texto=WOW(b);
+
+
+		a=10;
+		b=100;
+
+	
+
+		
+
+		a=1;
+		b=(5);
+		
+
+		for(a=0; a<3; a=a+1){
+			for(b=0;b<2;b=b+1){
+				while(c<1){
+				c=c+1;
+			System.out.println("Hello CCCCCCCCCCCCCCCCCCCCCCCCCC!");
+				}
+			System.out.println("Anda la!");
+			}
+			System.out.println("Hello World!");
+		}
+		
+		daniel_f();
+		
+		int vamos;
+		vamos=0;
+		vamos++;
+		System.out.println(vamos);
+		return soma(a,b);
+
+	}
+
+}
+
+end

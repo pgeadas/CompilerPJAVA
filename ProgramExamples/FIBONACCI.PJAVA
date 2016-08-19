@@ -1,0 +1,28 @@
+public class Fibonacci {
+
+    public static int fib(int m) {
+        if (m <= 1){
+		return m;
+	}
+        else{
+		int a, b, c, d;
+		a=m-1;
+		b=m-2;
+		c=fib(a);
+		d=fib(b); 
+		return c+d;
+	}
+
+
+	return -1;
+    }
+
+    public static int main() {
+        int n = 15;
+        for (int i = 1; i <= n; i++)
+            System.out.println(i + ": " + fib(i));
+
+	return 1;
+    }
+
+}

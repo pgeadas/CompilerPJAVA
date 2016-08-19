@@ -1,0 +1,263 @@
+
+public class CORRECTO
+{
+	//bem vindo ao nosso codigo de teste!
+	int LALA = 169;
+	String frase= "Programa Correcto!";
+	int ola = 69;
+	String blabla;
+	double aeronave=10;
+	double aviao=10;
+	String xoxinho= "ola burro!";
+	//boolean xoxinha= True + False;
+	/* OLA 
+
+
+
+
+
+
+MUNDOOOOOOOOOOOOOOOOOOOOOOO!
+
+
+
+
+*/
+
+	public static int ifb(int a){
+		return a-10;
+	}
+
+	public static int ifa(int a){
+		return a+10;
+	}
+
+	public static int contaedss(String a, double b){
+		return 5;
+	}
+
+	public static int xoxo(int LALA, int BLABLA){
+
+		int b=200;
+		int z = b;
+		double a;
+		System.out.println(z);
+		System.out.println("OLA");
+		System.out.println(b);
+
+
+		z=contaedss("OLA",a);
+		return z;
+	}
+
+	public static int soma(int a, int b ){
+		int c;
+		c=a+b;
+		return c;
+	}
+
+	public static int mult(int a, int b ){
+		int c;
+		c=a*b;
+		return c;
+	}
+
+	public static int conta(int a, int b ){
+		return soma(a,b)+mult(a,b);
+	}
+
+
+	public static String WOW(int insane){
+		return "Leeroy Jenkins is sleeping!";
+	}
+
+	public static int um(){
+		System.out.print("\nAAAA->>>>>>>");
+		System.out.println(aviao);
+		int aleluia= 5.5;
+		System.out.print("\nAAAALELUIA->>>>>>>");
+		System.out.println(aleluia);
+		return 1;
+	}
+	public static int number(){
+		int a;
+		System.in.read(a);
+
+		return a;
+	}
+
+	public static int zero(){
+		return 0;
+	}
+
+	public static void daniel_f(){
+		int i=-10, j=0, z=0;
+		float x;
+		String cena;
+		
+		
+		String boiola;
+		
+		boiola="Correu BEM!";
+	
+		System.out.print("\nESCREVA MUITAS COISAS: ");
+		System.in.readln(boiola);
+		System.out.println(boiola);	
+		
+
+		System.out.print("\nINSIRA UM int: ");
+		
+		System.in.read(i);
+		System.out.print("i= ");
+		System.out.println(i);
+		System.out.print("\nINSIRA UM float: ");
+		System.in.read(x);
+		System.out.print("x= ");
+		System.out.println(x);
+		System.out.print("\nINSIRA UMa string: ");
+		System.in.read(cena);
+		System.out.print("cena= ");
+		System.out.println(cena);
+		System.out.print("\n");
+		
+
+		int plusplus=5;
+		plusplus+=1;
+		System.out.println(plusplus);
+
+
+
+		boolean verdade;
+		verdade= True;
+		String boi;
+		
+		
+		if(boi==""){
+			System.out.print("\nESCREVA MUITAS COISAS: \n");
+			System.in.readln(boi);
+			
+		}
+		System.out.println(boi);
+		return;
+		
+	}
+	
+	public static int main()
+	{
+
+		int b,c,d,a,e,f;
+		int retorno=100;
+		double korn;
+		int daniel=contaedss("ola", korn);
+		a=100;
+		
+		a=a*5;
+		a=a%2;
+		int s;
+		
+		a=1>2;
+
+		String Str = frase;
+				
+		float muahahahah;
+		double imdevil;
+		
+		
+		int i;
+		i=i+1;
+
+
+		a=10;
+		b=100;
+
+		System.out.println(a);
+		System.out.println(b);
+
+		System.out.println("\nCONTA: ");
+		//System.out.println(conta(a,b));
+
+		c=soma(a,b) + mult(a,b);
+
+		System.out.println("\nRESULTADO: ");
+		System.out.println(c);
+
+
+		//System.out.println(xoxo(a,b));
+
+
+		
+
+		a=1;
+		b=(5);
+		
+
+
+		if(a!=b)
+			System.out.println("ENCHIDOS");
+		else if(a!=b)
+			System.out.println("BANANA");			
+		else if(a==b)
+			System.out.println("ACHAS!!!!");
+		else if(a==b)
+			System.out.println("JA FOSTE!");
+		else
+			System.out.println("ARDEU!");
+		
+		
+		
+		if(a!=b)
+			System.out.println("SARDINHAS");
+		else if(a==b)
+			System.out.println("BLABLA");
+		else if(a==b)
+			System.out.println("ACHAS!!!!");
+		else if(a==b)
+			System.out.println("JA FOSTE!");
+		else
+			System.out.println("ARDEU!");
+		
+			
+		daniel_f();
+		
+		int vamos;
+		vamos=0;
+		vamos++;
+		System.out.println(vamos);
+
+
+		String frase="ola";
+		String frase2=" pedro";
+		
+		boolean uii;
+
+		if(zero())
+			System.out.println("BACANO1");
+		else
+			System.out.println("VERY BACANAL");
+
+
+		if(um()*0)
+			System.out.println("BACANO2");
+		else if(um()-1)
+			System.out.println("NOT BACANO2");
+		else if(um())
+			System.out.println("Se calhar ate somos bons nisto nao?");
+		else
+			System.out.println("NABOS DETECTED!!!!");
+		
+		String concatenar, con2;
+		String princesa= "Eu sou uma princesa muito bonita!";
+		System.out.println("\n\n--------------UMA NOVA ERA VAI COMECAR----------------\n");
+		System.concat(concatenar, "ola", 5, 5.5, " somos", " muito", princesa, " bons!", um(), zero(), number());
+		System.out.println("RESULTADO DE CONCAT1: " + concatenar);		
+		System.concat(con2, "ola");
+		System.out.println("RESULTADO DE CONCAT1: " + concatenar);
+		System.out.println("RESULTADO DE CONCAT2: " +con2);
+		System.out.println("ola" + 5 + 5875 + "asdasdassd" + con2 + um() + um() + um() + zero() + "||||" + number());
+		return soma(a,b);
+
+	}
+
+}
+
+

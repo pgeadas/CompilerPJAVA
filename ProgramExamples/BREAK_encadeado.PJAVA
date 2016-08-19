@@ -1,0 +1,103 @@
+
+public class CORRECTO
+{
+	//bem vindo ao nosso codigo de teste!
+	int LALA = 169;
+	String frase= "Programa Correcto!";
+	int ola = 69;
+	String blabla;
+	double aeronave=10;
+	double aviao=10;
+	String xoxinho= "ola burro!";
+	//boolean xoxinha= True + False;
+	/* OLA 
+
+
+MUNDOOOOOOOOOOOOOOOOOOOOOOO!
+
+		
+
+*/
+
+	public static int ifb(int a){
+		return a-10;
+	}
+	
+	
+	
+	
+	public static int main()
+	{
+
+		int b,c,d,a,e,f;
+		int retorno=100;
+		double korn;
+		a=100;
+		
+
+		
+	b=3;
+		
+
+			
+	while(b==3)
+	{
+		while(1){
+			System.out.println("shhhhhhhhhhhhhhhhh " + b);
+				while(1){
+					while(1){
+					System.out.println("shhhhhhhhhhhhhhhhh3 " + b);
+					break;
+				}
+					System.out.println("shhhhhhhhhhhhhhhhh2 " + b);
+					break;
+				}
+			break;
+		}
+		
+		System.out.println("infinito " + b);
+		break;
+		
+		while(1){
+			System.out.println("shhhhhhhhhhhhhhhhh " + b);
+			break;
+		}
+		
+	
+	}
+		
+		
+
+	
+		for(a=0; a<5; a++)
+		{
+			System.out.println("A " + a);
+			
+			if(a==3){
+				System.out.println("VAle " + a);
+				break;
+			
+			}
+			
+		for(b=0; b<5; b++)
+		{
+			System.out.println("b " + a);
+			
+			if(b==3){
+				System.out.println("VAle " + b);
+				break;
+			
+			}
+			
+
+		}
+			
+
+		}
+		
+		
+		return 0;
+		
+	}
+}
+

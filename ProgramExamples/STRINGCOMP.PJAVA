@@ -1,0 +1,27 @@
+
+public class CORRECTO
+{
+	
+	public static int main(){
+		String a="ola";
+		String b=" Mundo!";
+		String c="ola";
+		if(a==b)
+			System.out.println("Sao iguais!!!!!!!!!!!!");
+		else
+			System.out.println("Diferentes :(");
+
+
+		if(a==c)
+			System.out.println("Sao iguais!!!!!!!!!!!!");
+		else
+			System.out.println("Diferentes :(");
+
+		System.out.println(a+b);
+		return 1;
+
+	}
+
+}
+
+

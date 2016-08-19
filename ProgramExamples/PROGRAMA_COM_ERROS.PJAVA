@@ -1,0 +1,84 @@
+
+public class EXEMPLO
+{
+	int LALA;
+	String frase= "david e grande!";
+	float LALA;
+	int ola;
+	String blabla;
+
+	public static String WOW(int tank){
+		return "Leroy Jengins\n";
+	
+	}
+
+	public static int COMPILATORS(){
+		return WOW("ola");
+
+	}
+
+	public static String KLU(){
+		return WOW(5);
+	}
+	
+	public static int FUNCAO1(int teste, int test2, int teste)
+	{
+
+		int a,b,c,d,e,f, COMPILATORS;
+		int retorno=100;
+		f=COMPILATORS(a, b, c, d, e);
+		b=5*a*u*y*T*e*a*X*v*b*w*Qsadadasdczxccas*XILOFONE;
+		
+		int a;
+		String b=a;
+		
+		COMPILATORS=100;
+		
+		for(a; a<bizarro; delirio){
+			System.out.println("Hello World! Este programa tem erros de semantica xD");
+		}
+
+		for(e; e<bizarro; delirio){
+			System.out.println("Hello World! Este programa tem erros de semantica xD");
+		}
+
+		for(int i; i<10; i=i+1){
+			b=10+a;
+		}
+		i=i+1;
+
+		for(i; golaco<10; i=i+1){
+			b=10+a;
+		}
+
+		for(bela; bela>10; bela=bela-1){
+			xuxu=papa;
+		}
+		
+		funcao(a);
+		String bora;
+		a=WOW(5);
+		
+		bora=WOW("OLA");
+
+		WOW("OLA");
+
+		WOW(5, "OLA");
+
+		return bora;
+	}
+
+	public static int conta(int a, int b){
+		return a+b;
+	}
+
+	public static int conta(int a, int b){
+		System.out.println("THIS FUNCTION WAS ALREADY DEFINED!!! :P");
+	}
+
+	public static int funcao(int a){
+
+	}
+}
+
+
