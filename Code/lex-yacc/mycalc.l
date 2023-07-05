@@ -1,6 +1,7 @@
 %{
-#include "structures.h"
-#include "y.tab.h"
+#include "headers/structures.h"
+#include "headers/y.tab.h"
+#include "headers/globals.h"
 %}
 
 %S COMENTARIOS
@@ -58,7 +59,7 @@ comentariosLinha		"//".*\n
 "if"			{return IF;}
 "while"			{return WHILE;}
 "else"			{return ELSE;}
-"else if"		{return ELSEIF;}			
+"else if"		{return ELSEIF;}
 "for"			{return FOR;}
 "System.out.print"	{return PRINT;}
 "System.out.println"	{return PRINTLN;}
@@ -83,5 +84,4 @@ int yywrap()
 {
 	return 1;
 }
-
 

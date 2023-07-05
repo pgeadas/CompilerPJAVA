@@ -1,5 +1,3 @@
-lex mycalc.l
-yacc -d mycalc.y -v
-gcc -g -Wall -o mycalc y.tab.c lex.yy.c functions.c shows.c semantics.c symbol_table.c translate.c -ll -ly -lm
-
-
+flex lex-yacc/mycalc.l
+yacc -d lex-yacc/mycalc.y -v
+gcc -g -Wall -o out/mycalc lex-yacc/y.tab.c lex-yacc/lex.yy.c src/functions.c src/shows.c src/semantics.c src/symbol_table.c src/translate.c -ll -ly -lm
